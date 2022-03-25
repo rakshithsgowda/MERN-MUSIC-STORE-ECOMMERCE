@@ -8,7 +8,7 @@ import router from './routes/index.js'
 
 const app = express()
 
-const DB_connect = mongoose.connect(
+mongoose.connect(
   process.env.DATABASE_CONNECTION_LOCAL
   // process.env.DATABASE_CONNECTION_KEY.replace(
   //   '<password>',

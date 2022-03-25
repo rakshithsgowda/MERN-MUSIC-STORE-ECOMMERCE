@@ -1,3 +1,3 @@
-import { helloService } from './auth.service.js'
+import { createUser } from './auth.service.js'
 
-export { helloService }
+export { createUser }
